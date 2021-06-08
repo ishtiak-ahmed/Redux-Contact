@@ -6,6 +6,6 @@
 
     1. Redux
     2. React-Redux
-    3. Lodash
-    4. React
-    5. React-Hook-Form
+    3. React
+    4. React-Hook-Form
+    5. Node-sass
