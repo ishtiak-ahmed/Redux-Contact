@@ -15,24 +15,24 @@ form {
   margin: auto;
   grid-template-columns: 1fr 1fr;
   grid-gap: 3px;
-}
-form p {
-  margin: 0;
-}
-form input {
-  width: 100%;
-  padding: 5px 10px;
-  border-radius: 5px;
-  border: 1px solid lightgray;
-  outline: none;
-  line-height: 15px;
-  font-size: 12px;
-}
-form input:focus {
-  background-color: #f3f3f3;
-}
-form input[type="submit"] {
-  height: 25px;
+  p {
+    margin: 0;
+  }
+  input {
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    outline: none;
+    line-height: 15px;
+    font-size: 12px;
+    &:focus {
+      background-color: #f3f3f3;
+    }
+    &[type="submit"] {
+      height: 25px;
+    }
+  }
 }
 
 .item {
@@ -41,13 +41,13 @@ form input[type="submit"] {
   grid-gap: 5px;
   justify-content: space-between;
   margin-bottom: 10px;
-}
-.item h3 {
-  margin: 0;
-  line-height: 1em;
-}
-.item p {
-  margin: 0;
+  h3 {
+    margin: 0;
+    line-height: 1em;
+  }
+  p {
+    margin: 0;
+  }
 }
 
 button {
