@@ -1,24 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import ContactManager from './Components/ContactManager/ContactManager';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>Contact Manager</h1>
+      <h4>Built with React and Redux</h4>
+      <ContactManager></ContactManager>
+    </>
   );
 }
 
